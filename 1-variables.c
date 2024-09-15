@@ -7,9 +7,9 @@ int main() {
     char c = 'A';        // Character variable
 
     // Print the values of the variables
-    printf("Integer: %d\n", a);
-    printf("Float: %.2f\n", b);
-    printf("Character: %c\n", c);
+    printf("Integer: %d\n", a);                 // %d is a format specifier for integers
+    printf("Float: %.2f\n", b);                 // %.2f is a format specifier for floating-point numbers with 2 decimal places
+    printf("Character: %c\n", c);               // %c is a format specifier for characters
 
     return 0;
 }
